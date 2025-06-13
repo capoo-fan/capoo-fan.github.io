@@ -1,18 +1,18 @@
 disabled = false
-languageCode = "en"
-languageName = "English"
+languageCode = "zh-cn"
+languageName = "简体中文"
+title = "Capoo-fan"
 weight = 1
-title = "Blowfish"
 
 [params]
-  displayName = "EN"
-  isoCode = "en"
-  rtl = false
-  dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+dateFormat = "2 January 2006"
+displayName = "中文"
+isoCode = "zh-cn"
+rtl = false
+# logo = "img/logo.png"
+# secondaryLogo = "img/secondary-logo.png"
+# description = "My awesome website"
+# copyright = "Copy, _right?_ :thinking_face:"
 
 # [params.author]
 #   name = "Your name here"

@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 baseURL = "https://capoo-fan.github.io/" 
-defaultContentLanguage = "en" 
+defaultContentLanguage = "zh-cn" 
 theme = "blowfish" # UNCOMMENT THIS LINE
 
 title = "Capoo Fan"
