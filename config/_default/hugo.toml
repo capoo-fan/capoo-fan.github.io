@@ -6,6 +6,7 @@ baseURL = "https://capoo-fan.github.io/"
 defaultContentLanguage = "en" 
 theme = "blowfish" # UNCOMMENT THIS LINE
 
+title = "Capoo Fan"
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
