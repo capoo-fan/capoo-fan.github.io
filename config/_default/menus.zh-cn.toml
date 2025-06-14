@@ -10,11 +10,16 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-#[[main]]
-#  name = "Blog"
-#  pageRef = "posts"
-#  weight = 10
+[[main]]
+name = "Home"
+pageRef = "/"
+weight = 1
 
+[[main]]
+identifier = "github"
+pre = "github"
+url = "https://github.com/capoo-fan"
+weight = 10
 #[[main]]
 #  name = "Parent"
 #  weight = 20
@@ -52,11 +57,9 @@
 #  pageRef = "tags"
 #  weight = 30
 
-
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
 # the copyright notice. Configure as per the main menu above.
-
 
 # [[footer]]
 #   name = "Tags"
