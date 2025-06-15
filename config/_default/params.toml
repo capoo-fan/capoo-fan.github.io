@@ -66,8 +66,8 @@ showDateUpdated = false
 showDraftLabel = true 
 showEdit = false 
 showHero = true 
-showLikes =false
-showViews = false 
+showLikes = true 
+showViews = true 
 # editURL = "https://github.com/username/repo/"
 editAppendPath = true
 invertPagination = false
@@ -127,13 +127,13 @@ showTableOfContents = true
 showViews = false
 
 [firebase]
-# apiKey = "XXXXXX"
-# authDomain = "XXXXXX"
-# projectId = "XXXXXX"
-# storageBucket = "XXXXXX"
-# messagingSenderId = "XXXXXX"
-# appId = "XXXXXX"
-# measurementId = "XXXXXX"
+apiKey = "AIzaSyDOtAUW6lTH7OZx7UZ8zw8AnbZelMyzOS0"
+appId = "1:639533551724:web:160a604f266d5b66420849"
+authDomain = "my-blog-e87f7.firebaseapp.com"
+measurementId = "G-L616HBBX9V"
+messagingSenderId = "639533551724"
+projectId = "my-blog-e87f7"
+storageBucket = "my-blog-e87f7.firebasestorage.app"
 
 [fathomAnalytics]
 # site = "ABC12345"
