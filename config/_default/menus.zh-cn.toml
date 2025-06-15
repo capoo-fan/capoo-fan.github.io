@@ -17,7 +17,7 @@ weight = 1
 
 [[main]]
 name = "About"
-url = "https://capoo-fan.github.io/posts/in/"
+url = "https://capoo-fan.github.io/about/,page"
 weight = 2
 
 [[main]]
