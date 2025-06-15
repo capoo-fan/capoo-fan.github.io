@@ -3,6 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2025-06-15T16:47:38+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
     <changefreq>daily</changefreq>
@@ -17,11 +23,6 @@
   <url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/about/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
