@@ -5,3 +5,5 @@ title = 'About Me'
 +++
 
 # About
+
+This is the about page of my blog. Here, I will share a little bit about myself and the purpose of this blog.
