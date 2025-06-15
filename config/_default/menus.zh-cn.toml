@@ -16,13 +16,15 @@ pageRef = "/"
 weight = 1
 
 [[main]]
+name = "About"
+url = "https://capoo-fan.github.io/posts/in/"
+weight = 2
+
+[[main]]
 identifier = "github"
 pre = "github"
 url = "https://github.com/capoo-fan"
-weight = 10
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+weight = 3
 
 #[[main]]
 #  name = "example sub-menu 1"
