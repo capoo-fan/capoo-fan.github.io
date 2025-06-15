@@ -77,3 +77,12 @@ enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
 block = [['\[', '\]'], ['$$', '$$']]
 inline = [['\(', '\)']]
+# Permalink配置
+[permalinks]
+posts = "/posts/:slug/"
+
+
+# 输出配置
+[outputFormats]
+[outputFormats.RSS]
+baseName = "feed"
