@@ -21,8 +21,8 @@ disableImageOptimization = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+ defaultBackgroundImage = "mainbackground.svg" # used as default for background images 
+ defaultFeaturedImage = "mainbackground.svg" # used as default for featured images in all articles
 # defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 
 # highlightCurrentMenuArea = true
@@ -62,7 +62,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   showAuthor = true
   # showAuthorBottom = false
   showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
