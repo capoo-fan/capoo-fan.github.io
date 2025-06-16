@@ -13,16 +13,6 @@
     
     <item>
       <title>123</title>
-      <link>http://localhost:1313/posts/123/</link>
-      <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/123/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>123</title>
       <link>http://localhost:1313/tech/test/</link>
       <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
@@ -68,7 +58,7 @@
       <author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/posts/my-test-post/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/my-test-post/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/my-test-post/feature.png" />
     </item>
     
   </channel>
