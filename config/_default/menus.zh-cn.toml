@@ -22,7 +22,7 @@ weight = 200
 
 [[main]]
   name = "Friends"
-  pageRef ="posts"
+  pageRef ="https://capoo-fan.github.io/pages/friends"
   weight = 300
 
 [[main]]
