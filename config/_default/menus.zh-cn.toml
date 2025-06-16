@@ -21,7 +21,7 @@ url = "https://capoo-fan.github.io/pages/about"
 weight = 200
 
 [[main]]
-name = "links"
+name = "Friends"
 url = "https://capoo-fan.github.io/pages/friends/"
 weight = 300
 
