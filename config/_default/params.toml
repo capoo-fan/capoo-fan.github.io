@@ -32,6 +32,8 @@ defaultFeaturedImage = "mainbackground.svg" # used as default for featured image
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 giteaDefaultServer = "https://git.fsfe.org"
 
+
+
 [header]
 layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
@@ -43,8 +45,8 @@ showScrollToTop = true
 showThemeAttribution = true
 
 [homepage]
-cardView = false 
-cardViewScreenWidth = false 
+cardView = true
+cardViewScreenWidth = false
 homepageImage = "mainbackground.svg" # used in: hero, and card
 layout = "background" # valid options: page, profile, hero, card, background, custom
 layoutBackgroundBlur = false # only used when layout equals background
@@ -54,6 +56,7 @@ showRecent = true
 showRecentItems = 5 
 
 [article]
+showHero = false
 heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
 layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
@@ -65,7 +68,6 @@ showDateOnlyInArticle = true
 showDateUpdated = false 
 showDraftLabel = true 
 showEdit = false 
-showHero = true 
 showLikes = true 
 showViews = true 
 # editURL = "https://github.com/username/repo/"
@@ -86,11 +88,11 @@ showWordCount = false
 showZenMode = true
 
 [list]
-showHero = false
-# heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-cardView = false 
-cardViewScreenWidth = false 
-constrainItemsWidth = false 
+showHero = true
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = false
 groupByYear = true 
 layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
 layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
