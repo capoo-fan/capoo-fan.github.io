@@ -22,7 +22,7 @@ weight = 200
 
 [[main]]
 name = "Friends"
-pageRef = "https://capoo-fan.github.io/pages/friends"
+url = "https://capoo-fan.github.io/pages/friends"
 weight = 300
 
 [[main]]
