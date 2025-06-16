@@ -21,34 +21,32 @@ url = "https://capoo-fan.github.io/pages/about"
 weight = 200
 
 [[main]]
-  name = "Friends"
-  pageRef ="https://capoo-fan.github.io/pages/friends"
-  weight = 300
+name = "Friends"
+pageRef = "https://capoo-fan.github.io/pages/friends"
+weight = 300
 
 [[main]]
-  name = "Categories"
-  pageRef ="categories"
-  weight = 301
+name = "Categories"
+pageRef = "categories"
+weight = 301
 
 [[main]]
-  name = "web"
-  parent = "Categories"
-  pageRef ="categories/Web"
-  weight = 302
+name = "web"
+pageRef = "categories/Web"
+parent = "Categories"
+weight = 302
 
 [[main]]
-  name="life"
-  parent = "Categories"
-  pageRef ="categories/life"
-  weight = 303
+name = "life"
+pageRef = "categories/life"
+parent = "Categories"
+weight = 303
 
 [[main]]
 identifier = "github"
 pre = "github"
 url = "https://github.com/capoo-fan"
 weight = 500
-
-
 
 #[[main]]
 #  name = "example sub-menu 2"
