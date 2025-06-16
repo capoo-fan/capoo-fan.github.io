@@ -13,24 +13,42 @@
 [[main]]
 name = "Home"
 pageRef = "/"
-weight = 1
+weight = 100
 
 [[main]]
 name = "About"
-url = "https://capoo-fan.github.io/about/"
-weight = 2
+url = "https://capoo-fan.github.io/pages/about"
+weight = 200
+
+[[main]]
+  name = "Friends"
+  pageRef ="posts"
+  weight = 300
+
+[[main]]
+  name = "Categories"
+  pageRef ="categories"
+  weight = 301
+
+[[main]]
+  name = "web"
+  parent = "Categories"
+  pageRef ="categories/Web"
+  weight = 302
+
+[[main]]
+  name="life"
+  parent = "Categories"
+  pageRef ="categories/life"
+  weight = 303
 
 [[main]]
 identifier = "github"
 pre = "github"
 url = "https://github.com/capoo-fan"
-weight = 3
+weight = 500
 
-#[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
-#  weight = 20
+
 
 #[[main]]
 #  name = "example sub-menu 2"

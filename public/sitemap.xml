@@ -3,19 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/tech/test/</loc>
-    <lastmod>2025-06-15T16:47:38+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2025-06-15T16:47:38+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-06-17T01:14:38+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/pages/</loc>
+    <lastmod>2025-06-17T01:14:38+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/pages/friends/</loc>
+    <lastmod>2025-06-17T01:14:38+08:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/pages/about/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -33,19 +39,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/my-test-post/</loc>
+    <loc>http://localhost:1313/posts/null/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-06-15T16:47:38+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/tech/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

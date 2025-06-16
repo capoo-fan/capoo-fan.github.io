@@ -243,10 +243,21 @@
 
             
             
-  <a href="https://capoo-fan.github.io/about/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="https://capoo-fan.github.io/pages/about"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         About
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Posts">
+        Friends
     </p>
 </a>
 
@@ -424,10 +435,25 @@
 
                     
   <li class="mt-1">
-    <a href="https://capoo-fan.github.io/about/"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="https://capoo-fan.github.io/pages/about"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             About
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/posts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Posts">
+            Friends
         </p>
     </a>
 </li>
@@ -474,6 +500,16 @@
 
 
 
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
 
 
   
@@ -735,7 +771,7 @@
     </div>
     
     
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">A little bit about you</div>
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">🚀 Full-stack Developer</div>
     
     <div class="text-2xl sm:text-lg">
   <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
@@ -1055,7 +1091,7 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      Copy, <em>right?</em> :thinking_face:
+      © 2025 潜伏. All rights reserved.
     </p>
     
 

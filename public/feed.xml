@@ -8,25 +8,25 @@
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
-    <copyright>Copy, _right?_ :thinking_face:</copyright>
-    <lastBuildDate>Sun, 15 Jun 2025 16:47:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/feed.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 潜伏. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 17 Jun 2025 01:14:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>123</title>
-      <link>http://localhost:1313/tech/test/</link>
-      <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
+      <title>潜伏的朋友们</title>
+      <link>http://localhost:1313/pages/friends/</link>
+      <pubDate>Tue, 17 Jun 2025 01:14:38 +0800</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/tech/test/</guid>
+      <guid>http://localhost:1313/pages/friends/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:1313/pages/about/</link>
       <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:1313/pages/about/</guid>
       <description></description>
       
     </item>
@@ -52,13 +52,13 @@
     </item>
     
     <item>
-      <title>My test Post</title>
-      <link>http://localhost:1313/posts/my-test-post/</link>
+      <title>null</title>
+      <link>http://localhost:1313/posts/null/</link>
       <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/my-test-post/</guid>
+      <guid>http://localhost:1313/posts/null/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/my-test-post/feature.png" />
+      
     </item>
     
   </channel>

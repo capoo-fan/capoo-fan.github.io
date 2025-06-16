@@ -11,13 +11,13 @@ isoCode = "zh-cn"
 logo = "assets/avatar.jpg"
 rtl = false
 # secondaryLogo = "img/secondary-logo.png"
-copyright = "Copy, _right?_ :thinking_face:"
+copyright = "© 2025 潜伏. All rights reserved."
 description = "My awesome website"
 
 [params.author]
-bio = "A little bit about you"
+bio = "🚀 Full-stack Developer"
 email = "qianfu46@gmail.com"
-headline = "I'm only human"
+headline = "浮沉随浪，只记今朝"
 image = "img/avatar.jpg"
 imageQuality = 96
 links = [

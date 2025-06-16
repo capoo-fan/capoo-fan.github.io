@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web on Capoo-fan</title>
+    <link>http://localhost:1313/categories/web/</link>
+    <description>Recent content in Web on Capoo-fan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
+    <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
+    <copyright>© 2025 潜伏. All rights reserved.</copyright>
+    <lastBuildDate>Sun, 15 Jun 2025 16:47:38 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/web/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>null</title>
+      <link>http://localhost:1313/posts/null/</link>
+      <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
+      <author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/posts/null/</guid>
+      <description></description>
+      
+    </item>
+    
+  </channel>
+</rss>

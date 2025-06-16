@@ -23,16 +23,14 @@ disableTextInHeader = false
 
 defaultBackgroundImage = "mainbackground.svg" # used as default for background images 
 defaultFeaturedImage = "mainbackground.svg" # used as default for featured images in all articles
-# defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
+defaultSocialImage = "/android-chrome-512x512.png" # used as default for social media sharing (Open Graph and Twitter)
 
-# highlightCurrentMenuArea = true
+ highlightCurrentMenuArea = true
 # smartTOC = true
 # smartTOCHideUnfocusedChildren = true
 
 forgejoDefaultServer = "https://v8.next.forgejo.org"
 giteaDefaultServer = "https://git.fsfe.org"
-
-
 
 [header]
 layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
@@ -45,8 +43,8 @@ showScrollToTop = true
 showThemeAttribution = true
 
 [homepage]
-cardView = true
-cardViewScreenWidth = false
+cardView = true 
+cardViewScreenWidth = false 
 homepageImage = "mainbackground.svg" # used in: hero, and card
 layout = "background" # valid options: page, profile, hero, card, background, custom
 layoutBackgroundBlur = false # only used when layout equals background
@@ -56,7 +54,6 @@ showRecent = true
 showRecentItems = 5 
 
 [article]
-showHero = true
 heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
 layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
@@ -68,6 +65,7 @@ showDateOnlyInArticle = true
 showDateUpdated = false 
 showDraftLabel = true 
 showEdit = false 
+showHero = true 
 showLikes = true 
 showViews = true 
 # editURL = "https://github.com/username/repo/"
@@ -88,17 +86,17 @@ showWordCount = false
 showZenMode = true
 
 [list]
-showHero = true
-heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-cardView = false
-cardViewScreenWidth = false
-constrainItemsWidth = false
+cardView = false 
+cardViewScreenWidth = false 
+constrainItemsWidth = false 
 groupByYear = true 
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
 layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
 orderByWeight = false 
 showBreadcrumbs = false 
 showCards = false 
+showHero = true 
 showLikes = false 
 showSummary = false 
 showTableOfContents = false 
@@ -108,9 +106,9 @@ showViews = false
 excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-showHero = false
+showHero = true
 showTermCount = true
-# heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 cardView = false
 showBreadcrumbs = false
 showLikes = false

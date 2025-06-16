@@ -82,6 +82,9 @@
   <meta name="twitter:description" content="My awesome website">
 
     
+    <meta name="twitter:image" content="http://localhost:1313/android-chrome-512x512.png" />
+    <meta property="og:image" content="http://localhost:1313/android-chrome-512x512.png" />
+    
   
   
   
@@ -447,6 +450,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   
   <div class="relative flex flex-col grow">
@@ -743,7 +756,7 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      Copy, <em>right?</em> :thinking_face:
+      © 2025 潜伏. All rights reserved.
     </p>
     
 
