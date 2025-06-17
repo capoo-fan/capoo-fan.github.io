@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Github on Capoo-fan</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in Github on Capoo-fan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
+    <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
+    <copyright>© 2025 潜伏. All rights reserved.</copyright>
+    <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/github/feed.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>远程编辑hoa.moe</title>
+      <link>http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/</link>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+      <author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/feature.png" />
+    </item>
+    
+  </channel>
+</rss>

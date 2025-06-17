@@ -4,7 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-06-17T01:14:38+08:00</lastmod>
+    <lastmod>2025-06-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-06-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/</loc>
+    <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -34,12 +46,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/posts/null/</loc>
-    <lastmod>2025-06-15T16:47:38+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>

@@ -37,10 +37,16 @@ parent = "Categories"
 weight = 302
 
 [[main]]
+name = "general"
+pageRef = "categories/general"
+parent = "Categories"
+weight = 303
+
+[[main]]
 name = "life"
 pageRef = "categories/life"
 parent = "Categories"
-weight = 303
+weight = 304
 
 [[main]]
 identifier = "github"
