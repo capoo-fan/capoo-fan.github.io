@@ -17,12 +17,12 @@ weight = 100
 
 [[main]]
 name = "About"
-url = "https://capoo-fan.github.io/pages/about"
+pageRef = "about"
 weight = 200
 
 [[main]]
 name = "Friends"
-url = "https://capoo-fan.github.io/pages/friends/"
+pageRef = "friends"
 weight = 300
 
 [[main]]
