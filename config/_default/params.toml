@@ -117,7 +117,7 @@ showViews = false
 
 [term]
 showHero = true
-# heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
 cardView = false
 cardViewScreenWidth = false
 groupByYear = false

@@ -32,16 +32,6 @@
     </item>
     
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>My Second Post</title>
       <link>http://localhost:1313/posts/my-second-post/</link>
       <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
@@ -57,6 +47,16 @@
       <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/posts/null/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 15 Jun 2025 00:00:00 +0000</pubDate>
+      <author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description></description>
       
     </item>
