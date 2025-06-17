@@ -9,3 +9,4 @@ description = '友链列表'
 
 - [亮亮](https://astro.momentum.moe/)
 - [cc](https://i@cclvi.cc/)
+- [IcyDesert](https://github.com/IcyDesert)
