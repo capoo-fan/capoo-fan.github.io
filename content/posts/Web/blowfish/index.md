@@ -3,7 +3,7 @@ date =2025-06-18
 draft = false
 categories = ['Web']
 tags = ['blowfish']
-title = 'Blowfish的小tip'
+title = 'Tips about blowfish'
 description = '安装 Blowfish 的小 tips '
 +++
 
