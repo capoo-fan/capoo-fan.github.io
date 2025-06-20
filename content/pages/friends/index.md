@@ -18,3 +18,8 @@ description = '友链列表'
 - [hoa.moe](https://hoa.moe/) HITSZ 自动化课程攻略共享计划
 - [opencs](https://github.com/HITSZ-OpenCS/HITSZ-OpenCS)  哈工大（深圳）计算机专业课程攻略
 - [Hitsz-osa](https://wiki.osa.moe/) HITSZ 开源技术协会 Wiki
+
+## Group Lists
+
+- HITSZ开源技术协会：811633021 （QQ）
+- 华科开源俱乐部: 554359007 （QQ）
