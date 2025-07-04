@@ -12,7 +12,6 @@ description = '友链列表'
 - [IcyDesert](https://github.com/IcyDesert)
 - [寒金](https://syhanjin.moe/)
 
-
 ## Website Lists
 
 - [hoa.moe](https://hoa.moe/) HITSZ 自动化课程攻略共享计划
