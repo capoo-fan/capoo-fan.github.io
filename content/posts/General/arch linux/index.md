@@ -1,8 +1,8 @@
 +++
 date =2025-07-04
 draft = false
-categories = ['Linux']
-tags = ['Arch Linux', 'Linux', 'Operating System']
+categories = ['General']
+tags = ['Linux', 'Operating System']
 title = 'Arch linux 安装指南'
 description = 'Arch linux 安装指南，适合新手'
 +++
