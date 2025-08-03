@@ -1,3 +1,12 @@
++++
+date =2025-08-14
+draft = false
+categories = ['General','Vscode']
+tags = ['Vscode','C/Cpp']
+title = 'Vscode配置教程'
+description = '配置在Vscode的C/Cpp运行环境'
++++
+
 # Vscode 配置教程
 
 ## 下载 vscode 
