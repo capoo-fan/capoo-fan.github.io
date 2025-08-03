@@ -3,19 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>http://localhost:1313/posts/arch-linux-%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</loc>
-    <lastmod>2025-07-04T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-07-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-14T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/posts/arch-linux-%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
