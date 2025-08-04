@@ -53,7 +53,7 @@ description = '配置在Vscode的C/Cpp运行环境'
 
 - 'Win+R' 打开运行窗口，输入 `cmd` 并回车，在输入框输入 `g++ --version` 检查是否安装成功。
 - 
-- 如果显示版本信息(有一大段输出)，则表示安装成功。
+- 如果显示版本信息(有一段输出)，则表示安装成功。
 
 ### 编译与调试
 
@@ -74,17 +74,91 @@ int main()
 新建 "tasks.json"
 粘贴以下代码:
 ```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "C/C++: g++.exe build active file",
+      "type": "cppbuild",
+      // 关键：必须替换成你自己的 g++.exe 的完整路径！
+      // 示例：C:\\Users\\ABCD\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe
+      "command": "你的g++.exe的完整路径", //g++.exe在mingw64/bin目录下,自行查找即可，复制文件地址过来是单斜杠会报错。自行按照示例改成双斜杠即可
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g", // 生成调试信息
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "problemMatcher": ["$msCompile"],
+      "group": {
+        "kind": "build",
+        "isDefault": true // 设置为默认构建任务 (Ctrl+Shift+B)
+      },
+      "detail": "compiler: 你的g++.exe的完整路径  ", //与上同理
+    }
+  ]
+}
 
 ```
-此时在按快捷键 'F6' 或者在右上角的有一个🔺图标，点击图标找到编译运行，尝试编译运行，如果存在输出 “1 hello,world”,证明编译成功
 
 ----
 
 然后依旧在.vscode文件夹下新建 launch.json
 
 ```json
-
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(gdb) Launch C++ Debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": true, // 推荐true，程序会运行在独立的cmd窗口，输入输出更方便
+      "MIMode": "gdb",
+      // 关键：必须替换成你自己的 gdb.exe 的完整路径！
+      "miDebuggerPath": "你的gdb.exe完整路径",// gdb.exe在mingw64/bin目录下,自行查找即可
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true
+        }
+      ],
+      // 关键：在启动调试前，自动执行 tasks.json 中定义的构建任务
+      "preLaunchTask": "C/C++: g++.exe build active file"
+    }
+  ]
+}
 ```
 
+**编译**
+按下 'F6' 键，或者点击左侧栏的运行按钮，选择 "C/C++: g++.exe build active file"，这会编译当前打开的文件如果一切正常，你会看到输出 `1 hello,world`。
+
+**调试**
 将鼠标移动到 第 5 行 int a=1; 的行号左侧，光标会变成一个小红点，单击鼠标左键，设置一个断点。
-此时在左边栏有一个🔺带一个小爬虫的按键，这个就是调试页面，点击左上角出现的启动按钮（框内内容是  (gdb)启动 ），程序就会进入调试状态。程序右上方出现按键组合，小红点出现黄色框（证明程序运行停止在了这里）。看到这种情况证明调试成功。
+然后按下 `F5` 键，或者点击左侧栏的运行按钮，选择 "C++ (GDB) Launch"，程序会在独立的命令行窗口中运行。并且程序会在断点处暂停。
+
+## 问题排查
+
+在环境变量导入正确的情况下，一般来说编译是不会有问题的。如果调试有问题，系统会提示你找不到 'lauch.json' 文件,此时要检查你的文件路径是否携带中文，比如 'hello.cpp' 和 创建的各种 .json 文件，对每一个文件复制一下文件地址然后找到一个地方粘贴即可查看是否有中文。例如你把 test 文件夹放在了桌面就会出问题。
+
+
+## 尾记
+
+有人说 vscode 的 C/C++ 开发环境配置太麻烦了，为什么不直接用其他 IDE？其实我也试过其他的 IDE，像 Code::Blocks、Dev-C++ 等等，但总觉得不如 vscode 灵活。vscode 的插件生态非常丰富，而且界面简洁，操作流畅，适合各种开发需求。总吃开箱即用的"方便面"总是对身体不好的，自己花点时间配置一个适合自己的环境，既可以了解一些计算机的知识，又可以得到一个舒适的开发环境，何乐而不为。
+暴论: 对于喜欢应付教学，并且打算毕业既失业的人来说，devc确实是个好选择
+
