@@ -4,7 +4,7 @@ draft = false
 categories = ['General','Vscode']
 tags = ['Vscode','C/Cpp']
 title = 'Vscode配置教程'
-description = '配置在Vscode的C/Cpp运行环境'
+description = '本教程将引导你从零开始，在 Windows 系统上为 VS Code 配置基于 MinGW-w64 的 C/C++ 编译、运行及调试环境'
 +++
 
 # Vscode 配置教程
@@ -13,18 +13,19 @@ description = '配置在Vscode的C/Cpp运行环境'
 
 [vscode官方网址](https://code.visualstudio.com/Download)
 
-![img](img/download.png) 注意这里建议全部勾选，以后会方便很多。
+![img](img/download.png) 建议勾选全部选项，这会为你后续的开发提供极大的便利，例如直接在文件或文件夹上右键通过 Code 打开。” 
 
 ## 插件安装
 
-在左边栏的方块中就是插件市场，直接搜索下载就可以。
+点击 VS Code 侧边活动栏中的‘扩展’图标（通常是四个方块堆叠的形状），在打开的搜索框中搜索以下插件名并安装。。
 
-- Chinese (Simplified) (简体中文) 
-- Tokyo Night
-- C/C++ Compile Run
-- C/C++
-- Better C++ Syntax
-- Error Lens
+- Chinese (Simplified) (简体中文) ： 中文汉化
+- Tokyo Night ：主题插件
+- C/C++ Compile Run: 方便快速编译运行单文件
+- C/C++: 核心支持，提供代码高亮、智能感知等
+- Better C++ Syntax: 提供更精准的 C++ 语法高亮
+- Error Lens: 在代码行内直接显示错误和警告信息，非常直观。
+- Material Icon Theme: 提供更美观的图标主题
 
 ## 配置编译运行调试环境
 
@@ -32,14 +33,16 @@ description = '配置在Vscode的C/Cpp运行环境'
 
 [下载网址](https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/)
 
-注意选择下方的 x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z 链接进行下载
+在下载页面中，请找到 x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z 的链接点击进行下载 。
 
 ![img](img/mingw.png)
 如果下载速度过慢，可以点击页面的 "problem downloading?" 链接，选择不同的链接来更换下载源，速度会有不同。
 
 ### 配置环境变量
 
-在下载的目录(可以放到C/D盘)下一路点击 `mingw64/bin` 目录，复制bin文件夹的路径。
+1. 解压文件：使用解压软件（如 7-Zip 或 Bandizip）将下载的 x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z 文件解压。
+2. 放置文件夹：解压后会得到一个名为 mingw64 的文件夹。将这个 mingw64 文件夹移动到一个不含中文或空格的稳定路径下，例如 C:\ 或 D:\。最终 bin 目录的路径类似于 C:\mingw64\bin。
+3. 复制路径：进入这个 bin 文件夹，并复制bin文件夹的完整路径。在 Windows 文件资源管理器的地址栏单击或者对着bin右键复制文件地址，即可获得该路径。
 
 - 在 Windows 搜索框中搜索 “环境变量”，然后选择 “编辑系统环境变量”。
 
@@ -160,5 +163,4 @@ int main()
 ## 尾记
 
 有人说 vscode 的 C/C++ 开发环境配置太麻烦了，为什么不直接用其他 IDE？其实我也试过其他的 IDE，像 Code::Blocks、Dev-C++ 等等，但总觉得不如 vscode 灵活。vscode 的插件生态非常丰富，而且界面简洁，操作流畅，适合各种开发需求。总吃开箱即用的"方便面"总是对身体不好的，自己花点时间配置一个适合自己的环境，既可以了解一些计算机的知识，又可以得到一个舒适的开发环境，何乐而不为。
-暴论: 对于喜欢应付教学，并且打算毕业既失业的人来说，devc确实是个好选择
 

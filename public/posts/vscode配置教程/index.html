@@ -11,7 +11,7 @@
   <title>Vscode配置教程 &middot; Capoo-fan</title>
   <meta name="title" content="Vscode配置教程 &middot; Capoo-fan" />
   
-  <meta name="description" content="配置在Vscode的C/Cpp运行环境" />
+  <meta name="description" content="本教程将引导你从零开始，在 Windows 系统上为 VS Code 配置基于 MinGW-w64 的 C/C&#43;&#43; 编译、运行及调试环境" />
   <meta name="keywords" content="Vscode, C/Cpp, " />
   
   
@@ -70,7 +70,7 @@
   <meta property="og:url" content="http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/">
   <meta property="og:site_name" content="Capoo-fan">
   <meta property="og:title" content="Vscode配置教程">
-  <meta property="og:description" content="配置在Vscode的C/Cpp运行环境">
+  <meta property="og:description" content="本教程将引导你从零开始，在 Windows 系统上为 VS Code 配置基于 MinGW-w64 的 C/C&#43;&#43; 编译、运行及调试环境">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -84,7 +84,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/feature.png">
   <meta name="twitter:title" content="Vscode配置教程">
-  <meta name="twitter:description" content="配置在Vscode的C/Cpp运行环境">
+  <meta name="twitter:description" content="本教程将引导你从零开始，在 Windows 系统上为 VS Code 配置基于 MinGW-w64 的 C/C&#43;&#43; 编译、运行及调试环境">
 
   
   <script type="application/ld+json">
@@ -94,7 +94,7 @@
     "articleSection": "Posts",
     "name": "Vscode配置教程",
     "headline": "Vscode配置教程",
-    "description": "配置在Vscode的C\/Cpp运行环境",
+    "description": "本教程将引导你从零开始，在 Windows 系统上为 VS Code 配置基于 MinGW-w64 的 C\/C\u002b\u002b 编译、运行及调试环境",
     
     "inLanguage": "zh-cn",
     "url" : "http:\/\/localhost:1313\/posts\/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B\/",
@@ -111,7 +111,7 @@
     "keywords": ["Vscode","C/Cpp"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "30"
+    "wordCount": "332"
   }]
   </script>
 
@@ -739,7 +739,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2025-08-03T00:00:00&#43;00:00">3 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2025-08-03T00:00:00&#43;00:00">3 August 2025</time><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">2 分钟</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1033,8 +1033,12 @@
     <li><a href="#配置编译运行调试环境">配置编译运行调试环境</a>
       <ul>
         <li><a href="#mingw-w64下载">mingw-w64下载</a></li>
+        <li><a href="#配置环境变量">配置环境变量</a></li>
+        <li><a href="#编译与调试">编译与调试</a></li>
       </ul>
     </li>
+    <li><a href="#问题排查">问题排查</a></li>
+    <li><a href="#尾记">尾记</a></li>
   </ul>
 </nav>
   </div>
@@ -1053,8 +1057,12 @@
     <li><a href="#配置编译运行调试环境">配置编译运行调试环境</a>
       <ul>
         <li><a href="#mingw-w64下载">mingw-w64下载</a></li>
+        <li><a href="#配置环境变量">配置环境变量</a></li>
+        <li><a href="#编译与调试">编译与调试</a></li>
       </ul>
     </li>
+    <li><a href="#问题排查">问题排查</a></li>
+    <li><a href="#尾记">尾记</a></li>
   </ul>
 </nav>
   </div>
@@ -1106,16 +1114,16 @@
       <img
     class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="img"
     srcset="
-      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/download_hu_3b5d864f22cc400f.png 330w,
-      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/download_hu_f8e325ba2ed2a78b.png 660w,
-      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/download_hu_9c2e760cbb960b13.png 1280w"
-    data-zoom-src="/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/download.png"
-    src="/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/download.png"
+      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/download_hu_3b5d864f22cc400f.png 330w,
+      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/download_hu_f8e325ba2ed2a78b.png 660w,
+      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/download_hu_9c2e760cbb960b13.png 1280w"
+    data-zoom-src="/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/download.png"
+    src="/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/download.png"
   />
 
   
 </figure>
- 注意这里建议全部勾选，以后会方便很多。</p>
+ 建议勾选全部选项，这会为你后续的开发提供极大的便利，例如直接在文件或文件夹上右键通过 Code 打开。”</p>
 
 <h2 class="relative group">插件安装 
     <div id="插件安装" class="anchor"></div>
@@ -1127,14 +1135,15 @@
     </span>        
     
 </h2>
-<p>在左边栏的方块中就是插件市场，直接搜索下载就可以。</p>
+<p>点击 VS Code 侧边活动栏中的‘扩展’图标（通常是四个方块堆叠的形状），在打开的搜索框中搜索以下插件名并安装。。</p>
 <ul>
-<li>Chinese (Simplified) (简体中文)</li>
-<li>Tokyo Night</li>
-<li>C/C++ Compile Run</li>
-<li>C/C++</li>
-<li>Better C++ Syntax</li>
-<li>Error Lens</li>
+<li>Chinese (Simplified) (简体中文) ： 中文汉化</li>
+<li>Tokyo Night ：主题插件</li>
+<li>C/C++ Compile Run: 方便快速编译运行单文件</li>
+<li>C/C++: 核心支持，提供代码高亮、智能感知等</li>
+<li>Better C++ Syntax: 提供更精准的 C++ 语法高亮</li>
+<li>Error Lens: 在代码行内直接显示错误和警告信息，非常直观。</li>
+<li>Material Icon Theme: 提供更美观的图标主题</li>
 </ul>
 
 <h2 class="relative group">配置编译运行调试环境 
@@ -1158,7 +1167,184 @@
     </span>        
     
 </h3>
-<p><a href="https://sourceforge.net/projects/mingw-w64/" target="_blank">下载网址</a></p>
+<p><a href="https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/8.1.0/threads-posix/seh/" target="_blank">下载网址</a></p>
+<p>在下载页面中，请找到 x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z 的链接点击进行下载 。</p>
+<p>
+
+
+
+
+
+<figure>
+      <img
+    class="my-0 rounded-md" loading="lazy" decoding="async" fetchpriority="low" alt="img"
+    srcset="
+      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/mingw_hu_82875f352a30f8e.png 330w,
+      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/mingw_hu_9b91e9feeaa79ab7.png 660w,
+      /posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/mingw_hu_56c66e590328ba6b.png 1280w"
+    data-zoom-src="/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/mingw.png"
+    src="/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/img/mingw.png"
+  />
+
+  
+</figure>
+
+如果下载速度过慢，可以点击页面的 &ldquo;problem downloading?&rdquo; 链接，选择不同的链接来更换下载源，速度会有不同。</p>
+
+<h3 class="relative group">配置环境变量 
+    <div id="配置环境变量" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e9%85%8d%e7%bd%ae%e7%8e%af%e5%a2%83%e5%8f%98%e9%87%8f" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>解压文件：使用解压软件（如 7-Zip 或 Bandizip）将下载的 x86_64-8.1.0-release-posix-seh-rt_v6-rev0.7z 文件解压。</li>
+<li>放置文件夹：解压后会得到一个名为 mingw64 的文件夹。将这个 mingw64 文件夹移动到一个不含中文或空格的稳定路径下，例如 C:\ 或 D:\。最终 bin 目录的路径类似于 C:\mingw64\bin。</li>
+<li>复制路径：进入这个 bin 文件夹，并复制bin文件夹的完整路径。在 Windows 文件资源管理器的地址栏单击或者对着bin右键复制文件地址，即可获得该路径。</li>
+</ol>
+<ul>
+<li>
+<p>在 Windows 搜索框中搜索 “环境变量”，然后选择 “编辑系统环境变量”。</p>
+</li>
+<li>
+<p>在弹出的 “系统属性” 窗口中，点击 “环境变量(N)&hellip;” 按钮。</p>
+</li>
+<li>
+<p>在下方的 “系统变量(S)” 区域，找到并双击名为 Path 的变量。</p>
+</li>
+<li>
+<p>在 “编辑环境变量” 窗口中，点击 “新建”，然后将你的编译器路径 (&ldquo;C:\Users\ <em>你的用户名</em> \x86_64-8.1.0-release-posix-seh-rt_v6-rev0\mingw64\bin&rdquo;) 粘贴进去。</p>
+</li>
+<li>
+<p>一路点击 “确定” 保存所有设置。</p>
+</li>
+<li>
+<p>&lsquo;Win+R&rsquo; 打开运行窗口，输入 <code>cmd</code> 并回车，在输入框输入 <code>g++ --version</code> 检查是否安装成功。</p>
+</li>
+<li></li>
+<li>
+<p>如果显示版本信息(有一段输出)，则表示安装成功。</p>
+</li>
+</ul>
+
+<h3 class="relative group">编译与调试 
+    <div id="编译与调试" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e7%bc%96%e8%af%91%e4%b8%8e%e8%b0%83%e8%af%95" aria-label="锚点">#</a>
+    </span>        
+    
+</h3>
+<p>新建一个 &rsquo;test&rsquo; 文件夹,注意要在C/D盘创建，不要在桌面创建（原因后面会讲到），其中新建hello.cpp,粘贴以下代码作为测试</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-cpp" data-lang="cpp"><span class="line"><span class="cl"><span class="cp">#include</span> <span class="cpf">&lt;iostream&gt;</span><span class="cp">
+</span></span></span><span class="line"><span class="cl"><span class="cp"></span><span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> 
+</span></span><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">a</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="n">cout</span><span class="o">&lt;&lt;</span><span class="n">a</span><span class="o">&lt;&lt;</span><span class="s">&#34; hello,world&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>然后在 test 文件夹下新建一个 &ldquo;.vscode&rdquo; 文件夹
+新建 &ldquo;tasks.json&rdquo;
+粘贴以下代码:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="s2">&#34;2.0.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;tasks&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;label&#34;</span><span class="p">:</span> <span class="s2">&#34;C/C++: g++.exe build active file&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;cppbuild&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// 关键：必须替换成你自己的 g++.exe 的完整路径！
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="c1">// 示例：C:\\Users\\ABCD\\x86_64-8.1.0-release-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nt">&#34;command&#34;</span><span class="p">:</span> <span class="s2">&#34;你的g++.exe的完整路径&#34;</span><span class="p">,</span> <span class="c1">//g++.exe在mingw64/bin目录下,自行查找即可，复制文件地址过来是单斜杠会报错。自行按照示例改成双斜杠即可
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nt">&#34;args&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;-fdiagnostics-color=always&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;-g&#34;</span><span class="p">,</span> <span class="c1">// 生成调试信息
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="s2">&#34;${file}&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;-o&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="s2">&#34;${fileDirname}\\${fileBasenameNoExtension}.exe&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">],</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;options&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;cwd&#34;</span><span class="p">:</span> <span class="s2">&#34;${fileDirname}&#34;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;problemMatcher&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;$msCompile&#34;</span><span class="p">],</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;group&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;kind&#34;</span><span class="p">:</span> <span class="s2">&#34;build&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nt">&#34;isDefault&#34;</span><span class="p">:</span> <span class="kc">true</span> <span class="c1">// 设置为默认构建任务 (Ctrl+Shift+B)
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;detail&#34;</span><span class="p">:</span> <span class="s2">&#34;compiler: 你的g++.exe的完整路径  &#34;</span><span class="p">,</span> <span class="c1">//与上同理
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><hr>
+<p>然后依旧在.vscode文件夹下新建 launch.json</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="s2">&#34;0.2.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;configurations&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">    <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;(gdb) Launch C++ Debug&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;type&#34;</span><span class="p">:</span> <span class="s2">&#34;cppdbg&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;request&#34;</span><span class="p">:</span> <span class="s2">&#34;launch&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;program&#34;</span><span class="p">:</span> <span class="s2">&#34;${fileDirname}\\${fileBasenameNoExtension}.exe&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;args&#34;</span><span class="p">:</span> <span class="p">[],</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;stopAtEntry&#34;</span><span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;cwd&#34;</span><span class="p">:</span> <span class="s2">&#34;${fileDirname}&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;environment&#34;</span><span class="p">:</span> <span class="p">[],</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&#34;externalConsole&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span> <span class="c1">// 推荐true，程序会运行在独立的cmd窗口，输入输出更方便
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nt">&#34;MIMode&#34;</span><span class="p">:</span> <span class="s2">&#34;gdb&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// 关键：必须替换成你自己的 gdb.exe 的完整路径！
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nt">&#34;miDebuggerPath&#34;</span><span class="p">:</span> <span class="s2">&#34;你的gdb.exe完整路径&#34;</span><span class="p">,</span><span class="c1">// gdb.exe在mingw64/bin目录下,自行查找即可
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nt">&#34;setupCommands&#34;</span><span class="p">:</span> <span class="p">[</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;Enable pretty-printing for gdb&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;text&#34;</span><span class="p">:</span> <span class="s2">&#34;-enable-pretty-printing&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;ignoreFailures&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">},</span>
+</span></span><span class="line"><span class="cl">        <span class="p">{</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;Set Disassembly Flavor to Intel&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;text&#34;</span><span class="p">:</span> <span class="s2">&#34;-gdb-set disassembly-flavor intel&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">          <span class="nt">&#34;ignoreFailures&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">      <span class="p">],</span>
+</span></span><span class="line"><span class="cl">      <span class="c1">// 关键：在启动调试前，自动执行 tasks.json 中定义的构建任务
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>      <span class="nt">&#34;preLaunchTask&#34;</span><span class="p">:</span> <span class="s2">&#34;C/C++: g++.exe build active file&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">  <span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p><strong>编译</strong>
+按下 &lsquo;F6&rsquo; 键，或者点击左侧栏的运行按钮，选择 &ldquo;C/C++: g++.exe build active file&rdquo;，这会编译当前打开的文件如果一切正常，你会看到输出 <code>1 hello,world</code>。</p>
+<p><strong>调试</strong>
+将鼠标移动到 第 5 行 int a=1; 的行号左侧，光标会变成一个小红点，单击鼠标左键，设置一个断点。
+然后按下 <code>F5</code> 键，或者点击左侧栏的运行按钮，选择 &ldquo;C++ (GDB) Launch&rdquo;，程序会在独立的命令行窗口中运行。并且程序会在断点处暂停。</p>
+
+<h2 class="relative group">问题排查 
+    <div id="问题排查" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e9%97%ae%e9%a2%98%e6%8e%92%e6%9f%a5" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>在环境变量导入正确的情况下，一般来说编译是不会有问题的。如果调试有问题，系统会提示你找不到 &rsquo;lauch.json&rsquo; 文件,此时要检查你的文件路径是否携带中文，比如 &lsquo;hello.cpp&rsquo; 和 创建的各种 .json 文件，对每一个文件复制一下文件地址然后找到一个地方粘贴即可查看是否有中文。例如你把 test 文件夹放在了桌面就会出问题。</p>
+
+<h2 class="relative group">尾记 
+    <div id="尾记" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#%e5%b0%be%e8%ae%b0" aria-label="锚点">#</a>
+    </span>        
+    
+</h2>
+<p>有人说 vscode 的 C/C++ 开发环境配置太麻烦了，为什么不直接用其他 IDE？其实我也试过其他的 IDE，像 Code::Blocks、Dev-C++ 等等，但总觉得不如 vscode 灵活。vscode 的插件生态非常丰富，而且界面简洁，操作流畅，适合各种开发需求。总吃开箱即用的&quot;方便面&quot;总是对身体不好的，自己花点时间配置一个适合自己的环境，既可以了解一些计算机的知识，又可以得到一个舒适的开发环境，何乐而不为。</p>
 
           
           
@@ -1226,6 +1412,28 @@
           
         </span>
         <span>
+          
+            <a class="flex text-right group ml-3" href="/posts/vscode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Vscode插件推荐</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-08-03T00:00:00&#43;00:00">3 August 2025</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
           
         </span>
       </div>

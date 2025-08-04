@@ -18,7 +18,7 @@
       <author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/feature.png" />
     </item>
     
   </channel>
