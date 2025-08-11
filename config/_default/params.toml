@@ -51,7 +51,7 @@ layoutBackgroundBlur = false # only used when layout equals background
 showMoreLink = true 
 showMoreLinkDest = "/posts/" 
 showRecent = true 
-showRecentItems = 5 
+showRecentItems = 6 
 
 [article]
 heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
