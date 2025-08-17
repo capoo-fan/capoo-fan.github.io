@@ -22,13 +22,13 @@
     </item>
     
     <item>
-      <title>远程编辑hoa.moe</title>
-      <link>http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/</link>
+      <title>Remotely edit hoa.moe</title>
+      <link>http://localhost:1313/posts/remotely-edit-hoa.moe/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/</guid>
+      <guid>http://localhost:1313/posts/remotely-edit-hoa.moe/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/remotely-edit-hoa.moe/feature.png" />
     </item>
     
   </channel>

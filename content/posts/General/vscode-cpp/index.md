@@ -3,11 +3,11 @@ date =2025-08-03
 draft = false
 categories = ['General','Vscode']
 tags = ['C/Cpp']
-title = 'Vscode配置教程'
+title = 'VS Code C/C++ Setup Guide'
 description = '本教程将引导你从零开始，在 Windows 系统上为 VS Code 配置基于 MinGW-w64 的 C/C++ 编译、运行及调试环境'
 +++
 
-# Vscode 配置教程
+# VS Code C/C++ Setup Guide
 
 ## 下载 vscode 
 

@@ -12,13 +12,13 @@
     <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Arch linux 安装指南</title>
-      <link>http://localhost:1313/posts/arch-linux-%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</link>
+      <title>Arch Linux Installation</title>
+      <link>http://localhost:1313/posts/arch-linux-installation/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/arch-linux-%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</guid>
+      <guid>http://localhost:1313/posts/arch-linux-installation/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/arch-linux-installation/feature.png" />
     </item>
     
   </channel>

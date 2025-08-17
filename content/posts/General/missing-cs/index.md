@@ -3,7 +3,7 @@ date =2025-08-03
 draft = false
 categories = ['General','Computer Science']
 tags = []
-title = '你所缺失的计算机科学知识'
+title = 'The Missing CS Knowledge'
 description = '本教程将为你推荐一些计算机科学领域的重要知识点，帮助你提升专业素养。'
 +++
 
@@ -158,6 +158,22 @@ Tips：
 2. **两大视频平台**：YouTube (需要魔法) 和 Bilibili 上有许多优质的计算机科学和编程教程，可以通过搜索相关关键词找到适合自己的视频。
 3. **交流网站** : 首推 GitHub 和 Stack Overflow，这两个平台上有大量的开源项目和技术问答，可以帮助你解决具体问题。其次是 Csdn 和 博客园 和 知乎,不过由于国内环境的糜烂,属于是石里淘金。
 4. **技术博客**：许多开发者和技术专家会在个人博客上分享他们的知识和经验，关注一些知名的技术博客可以获取到很多实用的教程和技巧,比如 [我的 blog](https://capoo-fan.github.io/) (无耻推荐)。
+
+## AI 类
+
+平时解决问题可以借助 AI 工具，比如使用 ChatGPT 来获取编程帮助、文档查询等。现在来说国外 AI 远胜于 国内 AI ,但是国外 AI 需要梯子访问。
+
+### 常用 AI 工具
+
+- 国外 AI
+  - [ChatGPT](https://chat.openai.com/) - 一款强大的对话式 AI 工具，可以帮助你解决各种问题,要钱且需要梯子访问。
+  - [Gemini](https://gemini.google.com/) - Google 推出的对话式 AI 工具，支持多种语言,香港以及大陆无法访问,2.5 flash 免费使用。
+- 国内 AI
+  - [Deepseek](https://deepseek.cn/) - 国内较强的 AI,但是幻觉严重,体现为写论文的时候瞎编论据。
+  - [kimi](https://kimi.ai/) - 一款国内的对话式 AI 工具，主要是可以免费生成 PPT。
+  - [豆包](https://www.doubao.ai/) - 一款国内的对话式 AI 工具，可以免费生成图片。
+
+最后推荐一个网址 [AI 工具大全](https://ai-bot.cn/?)。
 
 ## 键盘快捷键
 

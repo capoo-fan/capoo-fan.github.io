@@ -12,13 +12,13 @@
     <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/c/cpp/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Vscode配置教程</title>
-      <link>http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</link>
+      <title>VS Code C/C&#43;&#43; Setup Guide</title>
+      <link>http://localhost:1313/posts/vs-code-c/c-setup-guide/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/posts/vs-code-c/c-setup-guide/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/vs-code-c/c-setup-guide/feature.png" />
     </item>
     
   </channel>

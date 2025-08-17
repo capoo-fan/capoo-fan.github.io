@@ -7,7 +7,7 @@ title = 'Tips about blowfish'
 description = '安装 Blowfish 的小 tips '
 +++
 
-# Blowfish的小tip
+# Tips about blowfish
 
 ## 背景与封面图片
 

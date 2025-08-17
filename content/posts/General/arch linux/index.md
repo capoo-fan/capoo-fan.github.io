@@ -3,11 +3,11 @@ date =2025-07-04
 draft = false
 categories = ['General']
 tags = ['Linux', 'Operating System']
-title = 'Arch linux 安装指南'
-description = 'Arch linux 安装指南，适合新手'
+title = 'Arch Linux Installation'
+description = 'Arch Linux 安装指南，适合新手'
 +++
 
-# Arch linux 安装指南
+# Arch Linux Installation
 
 ## 前言
 

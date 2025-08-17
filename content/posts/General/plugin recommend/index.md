@@ -3,11 +3,11 @@ date =2025-08-03
 draft = false
 categories = ['General','Vscode']
 tags = ['Plugin','Vscode']
-title = 'Vscode插件推荐'
+title = 'VS Code Plugin Recommendations'
 description = '本教程将为你推荐一些实用的 VS Code 插件，帮助你提升开发效率。'
 +++
 
-# Vscode 插件推荐
+# VS Code Plugin Recommendations
 
 
 ## 界面与美化

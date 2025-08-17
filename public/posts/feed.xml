@@ -12,43 +12,43 @@
     <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/posts/feed.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Vscode插件推荐</title>
-      <link>http://localhost:1313/posts/vscode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/</link>
+      <title>The Missing CS Knowledge</title>
+      <link>http://localhost:1313/posts/the-missing-cs-knowledge/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/vscode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/</guid>
+      <guid>http://localhost:1313/posts/the-missing-cs-knowledge/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/vscode%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%8D%90/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/the-missing-cs-knowledge/feature.png" />
     </item>
     
     <item>
-      <title>Vscode配置教程</title>
-      <link>http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</link>
+      <title>VS Code C/C&#43;&#43; Setup Guide</title>
+      <link>http://localhost:1313/posts/vs-code-c/c-setup-guide/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/</guid>
+      <guid>http://localhost:1313/posts/vs-code-c/c-setup-guide/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/vscode%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/vs-code-c/c-setup-guide/feature.png" />
     </item>
     
     <item>
-      <title>你所缺失的计算机科学知识</title>
-      <link>http://localhost:1313/posts/%E4%BD%A0%E6%89%80%E7%BC%BA%E5%A4%B1%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E7%9F%A5%E8%AF%86/</link>
+      <title>VS Code Plugin Recommendations</title>
+      <link>http://localhost:1313/posts/vs-code-plugin-recommendations/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/%E4%BD%A0%E6%89%80%E7%BC%BA%E5%A4%B1%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E7%9F%A5%E8%AF%86/</guid>
+      <guid>http://localhost:1313/posts/vs-code-plugin-recommendations/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/%E4%BD%A0%E6%89%80%E7%BC%BA%E5%A4%B1%E7%9A%84%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E7%9F%A5%E8%AF%86/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/vs-code-plugin-recommendations/feature.png" />
     </item>
     
     <item>
-      <title>Arch linux 安装指南</title>
-      <link>http://localhost:1313/posts/arch-linux-%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</link>
+      <title>Arch Linux Installation</title>
+      <link>http://localhost:1313/posts/arch-linux-installation/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/arch-linux-%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/</guid>
+      <guid>http://localhost:1313/posts/arch-linux-installation/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/arch-linux-%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/arch-linux-installation/feature.png" />
     </item>
     
     <item>
@@ -72,23 +72,23 @@
     </item>
     
     <item>
-      <title>哈工深课程总结</title>
-      <link>http://localhost:1313/posts/%E5%93%88%E5%B7%A5%E6%B7%B1%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/</link>
+      <title>HITSZ Course Summary</title>
+      <link>http://localhost:1313/posts/hitsz-course-summary/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/%E5%93%88%E5%B7%A5%E6%B7%B1%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/</guid>
+      <guid>http://localhost:1313/posts/hitsz-course-summary/</guid>
       <description></description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/%E5%93%88%E5%B7%A5%E6%B7%B1%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/feature.png" />
     </item>
     
     <item>
-      <title>远程编辑hoa.moe</title>
-      <link>http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/</link>
+      <title>Remotely edit hoa.moe</title>
+      <link>http://localhost:1313/posts/remotely-edit-hoa.moe/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
       <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/</guid>
+      <guid>http://localhost:1313/posts/remotely-edit-hoa.moe/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/%E8%BF%9C%E7%A8%8B%E7%BC%96%E8%BE%91hoa.moe/feature.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/remotely-edit-hoa.moe/feature.png" />
     </item>
     
     <item>

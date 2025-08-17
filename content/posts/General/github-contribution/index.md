@@ -3,7 +3,7 @@ date =2025-06-17
 draft = false
 categories = ['General']
 tags = ['github']
-title = '远程编辑hoa.moe'
+title = 'Remotely edit hoa.moe'
 description = '操作流程更加简单的贡献'
 +++
 
