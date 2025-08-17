@@ -14,13 +14,13 @@ description = '本教程将为你推荐一些实用的 VS Code 插件，帮助�
 
 一个赏心悦目的界面可以让你编码时心情更舒畅。
 
-### 1. 主题插件 (Themes)
+###  主题插件 (Themes)
 
 - **[Tokyo Night](https://marketplace.visualstudio.com/items?itemName=enkia.tokyo-night)**: 一款非常受欢迎的深色主题，色彩柔和且对比度适中，对眼睛友好。
 - **[One Dark Pro](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme)**: Atom 编辑器的标志性主题，经典耐看。
 - **[Dracula Official](https://marketplace.visualstudio.com/items?itemName=dracula-theme.theme-dracula)**: 适合夜间编程的深色主题，色彩搭配独特。
 
-### 2. 图标插件 (Icons)
+###  图标插件 (Icons)
 
 - **[Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)**: 为你的文件和文件夹提供丰富多彩的图标，让文件浏览器一目了然，快速识别文件类型。
 
@@ -46,6 +46,7 @@ description = '本教程将为你推荐一些实用的 VS Code 插件，帮助�
 
 - **[GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)**: 极大地增强了 VS Code 的 Git 功能。你可以通过它轻松查看每一行代码的修改历史（Git Blame）、文件和代码库的历史记录、进行代码比对等等，是 Git 重度用户的神器。
 - **[Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)**: 以图形化的方式展示 Git 仓库的分支和提交历史，帮助你更好地理解项目的演变。
+- **[Git History](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-history)**: 以图形化的方式展示 Git 仓库的提交历史，支持查看文件的修改记录和比较不同版本。
 
 ## ACM 算法竞赛
 

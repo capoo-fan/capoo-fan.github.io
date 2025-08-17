@@ -51,13 +51,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/remotely-edit-hoa.moe/</loc>
+    <loc>http://localhost:1313/posts/hitsz-course-summary/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/posts/%E5%93%88%E5%B7%A5%E6%B7%B1%E8%AF%BE%E7%A8%8B%E6%80%BB%E7%BB%93/</loc>
+    <loc>http://localhost:1313/posts/remotely-edit-hoa.moe/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
