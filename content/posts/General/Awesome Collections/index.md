@@ -15,5 +15,9 @@ description = '有用的工具和资源'
 
 # websites
 
+## verilog 
+
+- [Verilog 入门教程](https://www.runoob.com/w3cnote/verilog-tutorial.html)
+
 # Funny Tools
 
