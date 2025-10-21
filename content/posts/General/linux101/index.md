@@ -1,5 +1,5 @@
 +++
-date =2025-10-21
+date =2025-10-20
 draft = false
 categories = ['General']
 tags = ['shell','linux']
