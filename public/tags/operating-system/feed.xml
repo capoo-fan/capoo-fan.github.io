@@ -4,22 +4,18 @@
     <title>Operating System on Capoo-fan</title>
     <link>http://localhost:1313/tags/operating-system/</link>
     <description>Recent content in Operating System on Capoo-fan</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
-    <copyright>© 2025 潜伏. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/operating-system/feed.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 04 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/operating-system/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arch Linux Installation</title>
       <link>http://localhost:1313/posts/arch-linux-installation/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/posts/arch-linux-installation/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/posts/arch-linux-installation/feature.png" />
     </item>
-    
   </channel>
 </rss>

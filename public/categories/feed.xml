@@ -4,62 +4,46 @@
     <title>Categories on Capoo-fan</title>
     <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Capoo-fan</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
-    <copyright>© 2025 潜伏. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/feed.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Computer Science</title>
-      <link>http://localhost:1313/categories/computer-science/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/categories/computer-science/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>General</title>
       <link>http://localhost:1313/categories/general/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
-      
     </item>
-    
+    <item>
+      <title>Computer Science</title>
+      <link>http://localhost:1313/categories/computer-science/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/categories/computer-science/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Vscode</title>
       <link>http://localhost:1313/categories/vscode/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/categories/vscode/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Web</title>
       <link>http://localhost:1313/categories/web/</link>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/categories/web/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Life</title>
       <link>http://localhost:1313/categories/life/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/categories/life/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>

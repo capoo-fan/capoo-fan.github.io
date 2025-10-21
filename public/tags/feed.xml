@@ -4,92 +4,74 @@
     <title>Tags on Capoo-fan</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Capoo-fan</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
-    <copyright>© 2025 潜伏. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>C/Cpp</title>
-      <link>http://localhost:1313/tags/c/cpp/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/tags/c/cpp/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Plugin</title>
-      <link>http://localhost:1313/tags/plugin/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/tags/plugin/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Vscode</title>
-      <link>http://localhost:1313/tags/vscode/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/tags/vscode/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux</title>
       <link>http://localhost:1313/tags/linux/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
-      
     </item>
-    
+    <item>
+      <title>Shell</title>
+      <link>http://localhost:1313/tags/shell/</link>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/tags/shell/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>C/Cpp</title>
+      <link>http://localhost:1313/tags/c/cpp/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/tags/c/cpp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Plugin</title>
+      <link>http://localhost:1313/tags/plugin/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/tags/plugin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vscode</title>
+      <link>http://localhost:1313/tags/vscode/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
+      <guid>http://localhost:1313/tags/vscode/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Operating System</title>
       <link>http://localhost:1313/tags/operating-system/</link>
-      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/tags/operating-system/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Blowfish</title>
       <link>http://localhost:1313/tags/blowfish/</link>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/tags/blowfish/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>Github</title>
       <link>http://localhost:1313/tags/github/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/tags/github/</guid>
       <description></description>
-      
     </item>
-    
     <item>
       <title>School</title>
       <link>http://localhost:1313/tags/school/</link>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-      <author>qianfu46@gmail.com (潜伏)</author>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
       <guid>http://localhost:1313/tags/school/</guid>
       <description></description>
-      
     </item>
-    
   </channel>
 </rss>
