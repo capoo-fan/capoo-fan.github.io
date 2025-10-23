@@ -7,19 +7,21 @@ title = 'Linux Terminal Customization Guide'
 description = '本教程将引导你美化自己的命令行界面'
 +++
 
-# terminal美化教程
+# 命令行美化教程
+
+
+## terminal美化教程
 
 无论你的桌面是kde还是gnome，终端都是你与系统交互的主要方式之一。美化终端不仅可以提升工作效率，还能让你的桌面环境更加个性化。下面介绍我常用的终端：wezterm，经过一定的配置后，它可以提供非常好的用户体验。
 
-## wezterm安装
+### wezterm安装
 
-### Ubuntu/Debian
-
+ 
+- Ubuntu/Debian
 ```bash
 sudo apt install wezterm
 ```
-### Arch Linux
-
+- Arch Linux
 ```bash
 sudo pacman -S wezterm
 ```
@@ -120,134 +122,35 @@ end
 
 
 配置 starship 主题：
-```
-touch ~/.config/starship.toml
-nano ~/.config/starship.toml
-```
 
-然后在配置文件中添加以下内容：
-```toml
-format = """
-[░▒▓](#a3aed2)\
-[  ](bg:#a3aed2 fg:#1793D1)\
-[](bg:#769ff0 fg:#a3aed2)\
-$directory\
-[](fg:#769ff0 bg:#394260)\
-$git_branch\
-$git_status\
-[](fg:#394260 bg:#212736)\
-$nodejs\
-$rust\
-$golang\
-$php\
-$python\
-$java\
-$ruby\
-$c\
-$cpp\
-$haskell\
-$kotlin\
-[](fg:#212736 bg:#1d2230)\
-$cmd_duration\
-$time\
-[ ](fg:#1d2230)\
-\n$character"""
-
-[cmd_duration]
-format = '[[ ⏱️ $duration ](fg:#a0a9cb bg:#1d2230)]($style)' 
-min_time =  60_000  # Minimum time in milliseconds to display duration
-style = "bg:#1d2230" 
-
-[directory]
-format = "[ $path ]($style)"
-style = "fg:#e3e5e5 bg:#769ff0"
-truncation_length = 3
-truncation_symbol = "…/"
-
-[directory.substitutions]
-"Documents" = "󰈙 "
-"Downloads" = " "
-"Music" = " "
-"Pictures" = " "
-
-[git_branch]
-format = '[[ $symbol $branch ](fg:#769ff0 bg:#394260)]($style)'
-style = "bg:#394260"
-symbol = ""
-
-[git_status]
-format = '[[($all_status$ahead_behind $count )](fg:#769ff0 bg:#394260)]($style)'
-style = "bg:#394260"
-modified = "~${count}"
-staged = "+${count}"
-untracked = "?${count}"
-deleted = "-${count}"
-conflicted = "!${count}"
-
-
-[nodejs]
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
-style = "bg:#212736"
-symbol = ""
-
-[rust]
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
-style = "bg:#212736"
-symbol = ""
-
-[golang]
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
-style = "bg:#212736"
-symbol = ""
-
-[php]
-format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
-style = "bg:#212736"
-symbol = ""
-
-[java]
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-style = "bg:green"
-symbol = " "
-
-[kotlin]
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-style = "bg:green"
-symbol = ""
-
-[haskell]
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-style = "bg:green"
-symbol = ""
-
-[python]
-format = '[[ $symbol( $version)(\(#$virtualenv\)) ](fg:crust bg:green)]($style)'
-style = "bg:green"
-symbol = ""
-
-[c]
-format = '[[ $symbol( $version) ](fg:crust bg:green)]($style)'
-style = "bg:green"
-symbol = " "
-
-[cpp]
-format = '[[ $symbol( $version) ](fg:color_fg0 bg:color_blue)]($style)'
-style = "bg:color_blue"
-symbol = " "
-
-[time]
-disabled = false 
-format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)' 
-style = "bg:#1d2230" 
-time_format = "%R" # Hour:Minute Format
-```
-
+点击链接下载 tokyonight 主题配置文件：[starship.toml](https://raw.githubusercontent.com/starship/starship/main/presets/tokyonight.toml) 
+然后将其保存到 `~/.config/starship.toml`。
 这样你就可以得到一个 tokyonight 风格的提示符了。
 
 如果你还想更换其他风格的主题，可以在 starship 的配置文件中进行修改。例如，你可以将背景色和前景色更改为你喜欢的颜色，或者选择其他的主题风格。
 **主题网站**：[Starship Themes](https://starship.rs/presets/)
 
 ## 其他命令行工具
+
+### fastfetch 是一个轻量级的系统信息显示工具，类似于 neofetch，但更加简洁和快速。
+
+```bash
+sudo apt install fastfetch
+```
+然后在终端中输入以下命令即可显示系统信息：
+```bash
+fastfetch
+```
+配置 fastfetch 主题
+```bash
+cd ~/.local/share
+git clone https://github.com/LierB/fastfetch
+```
+然后执行以下命令就可以查看到主题
+```bash
+fastfetch --config groups
+fastfetch --config minimal
+```
 
 ### bat 
 bat 是一个增强版的 cat 命令，支持语法高亮和分页显示。
@@ -310,3 +213,6 @@ ya pkg add yazi-rs/flavors:dracula
 ```
  
 
+## 结语
+
+本教程已经同步到我的个人博客，欢迎访问：[Linux101 - 命令行美化教程](https://capoo-fan.github.io/posts/linux-terminal-customization-guide/)
