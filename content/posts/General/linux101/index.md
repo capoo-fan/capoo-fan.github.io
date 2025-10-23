@@ -10,6 +10,20 @@ description = '本教程将引导你美化自己的命令行界面'
 # 命令行美化教程
 
 
+
+## 增加包管理器
+
+apt和homebrew是两个常用的包管理器，apt是Ubuntu默认的包管理器，而homebrew则是一个跨平台的包管理器，支持Linux和macOS。homebrew可以安装一些apt中没有的软件包，扩展了系统的功能。
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew doctor # 检查安装是否成功
+```
+但你要下载软件的时候，只需要使用下面的命令即可：
+```
+brew install <package_name>
+```
+
 ## terminal美化教程
 
 无论你的桌面是kde还是gnome，终端都是你与系统交互的主要方式之一。美化终端不仅可以提升工作效率，还能让你的桌面环境更加个性化。下面介绍我常用的终端：wezterm，经过一定的配置后，它可以提供非常好的用户体验。
@@ -136,7 +150,7 @@ end
 fastfetch 是一个轻量级的系统信息显示工具，类似于 neofetch，但更加简洁和快速。
 
 ```bash
-sudo apt install fastfetch
+brew install fastfetch
 ```
 然后在终端中输入以下命令即可显示系统信息：
 ```bash
@@ -198,7 +212,7 @@ sudo apt install btop
 yazi 是一个命令行下的图片查看器，支持多种图片格式。
 
 ```bash
-sudo apt install yazi
+brew install yazi
 ```
 使用方法非常简单，只需在终端中输入以下命令即可查看图片：
 
