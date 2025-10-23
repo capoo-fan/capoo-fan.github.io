@@ -132,7 +132,8 @@ end
 
 ## 其他命令行工具
 
-### fastfetch 是一个轻量级的系统信息显示工具，类似于 neofetch，但更加简洁和快速。
+### fastfetch 
+fastfetch 是一个轻量级的系统信息显示工具，类似于 neofetch，但更加简洁和快速。
 
 ```bash
 sudo apt install fastfetch
