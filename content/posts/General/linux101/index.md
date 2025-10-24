@@ -9,8 +9,6 @@ description = '本教程将引导你美化自己的命令行界面'
 
 # 命令行美化教程
 
-
-
 ## 增加包管理器
 
 apt和homebrew是两个常用的包管理器，apt是Ubuntu默认的包管理器，而homebrew则是一个跨平台的包管理器，支持Linux和macOS。homebrew可以安装一些apt中没有的软件包，扩展了系统的功能。
@@ -24,22 +22,18 @@ brew doctor # 检查安装是否成功
 brew install <package_name>
 ```
 
+
 ## terminal美化教程
 
 无论你的桌面是kde还是gnome，终端都是你与系统交互的主要方式之一。美化终端不仅可以提升工作效率，还能让你的桌面环境更加个性化。下面介绍我常用的终端：wezterm，经过一定的配置后，它可以提供非常好的用户体验。
 
 ### wezterm安装
 
- 
 - Ubuntu/Debian
 ```bash
 sudo apt install wezterm
 ```
-- Arch Linux
-```bash
-sudo pacman -S wezterm
-```
-## 美化
+
 终端美化依赖NerdFont字体，shell 美化也会用到
 ```bash
 sudo apt install font-jetbrains-mono-nerd-font
@@ -69,29 +63,14 @@ cd ~/.config/wezterm
 ```bash
 sudo apt install fish
 ```
-## 设置 fish 为默认 shell
+设置 fish 为默认 shell
 ```bash
 chsh -s $(which fish)
 ```
 
 fish shell 的配置文件位于 `~/.config/fish/config.fish`。你可以在这里添加自定义的环境变量、别名等。
 
-## 配置环境变量
 
-例如你想要将路径添加到 PATH 环境变量中：
-
-```fish
-# 方法1: 使用 fish_add_path (推荐)
-fish_add_path ~/bin
-fish_add_path ~/.local/bin
-
-# 方法2: 使用 set -Ux
-set -Ux PATH ~/bin $PATH
-
-# 或者设置其他环境变量
-set -Ux EDITOR vim
-set -Ux GOPATH ~/go
-```
 ## 安装插件
 我们使用 Fisher 作为插件管理器：
 
@@ -114,7 +93,7 @@ alias ll='ls -la'
 alias c='clear'
 ```
 
-## 主题
+## starship 
 
 我们使用 starship 主题，它提供了非常美观的提示符和颜色方案。
 
@@ -126,12 +105,7 @@ nano ~/.config/fish/config.fish
 
 
 ``` fish
-if status is-interactive
-    # Commands to run in interactive sessions can go here
-	starship init fish | source &
-	thefuck --alias | source &
-	~/.config/fish/tty.sh &
-end
+starship init fish | source
 ```
 
 
@@ -147,7 +121,7 @@ end
 ## 其他命令行工具
 
 ### fastfetch 
-fastfetch 是一个轻量级的系统信息显示工具，类似于 neofetch，但更加简洁和快速。
+使用 fastfetch 可以在终端中显示系统信息和美化界面。
 
 ```bash
 brew install fastfetch
@@ -168,7 +142,7 @@ fastfetch --config minimal
 ```
 
 ### bat 
-bat 是一个增强版的 cat 命令，支持语法高亮和分页显示。
+cat可以在终端中预览文件内容，bat 是一个增强版的 cat 命令，支持语法高亮和分页显示。
 ```bash
 sudo apt install bat
 ```
@@ -184,23 +158,28 @@ nano ~/.config/bat/config
 ```
 
 ### zoxide
-zoxide 是一个智能的目录跳转工具，可以根据你的使用习惯快速跳转
+一般我们用 cd 命令来切换目录，但是当目录层级比较深时，cd 命令就显得不太方便了。zoxide 是一个智能的目录跳转工具，可以根据你的使用习惯快速跳转
 
 ```bash
 sudo apt install zoxide
+echo "zoxide init fish | source" >> ~/.config/fish/config.fish
 ```
-例如你想要访问的文件路径为 `/home/user/projects/myproject`，你可以使用以下命令快速跳转：
+
+例如你想要访问的文件路径为 /home/user/projects/myproject ，你可以使用以下命令快速跳转：
 
 你在第一次访问该目录时，zoxide 会自动记录该路径。下次你只需输入以下命令即可快速跳转：
 
+测试 zoxide 的功能
 ```bash
-z myproject
-echo "zoxide init fish | source" >> ~/.config/fish/config.fish
+mkdir -p ~/projects/myproject
+cd ~/projects/myproject
+cd
+z myproject # 直接跳转到 ~/projects/myproject
 ```
 
 ### btop
 
-btop 是一个资源监视工具，类似于 htop，但界面更加美观和现代化。
+btop 是一个在终端运行的资源监视器，可以实时显示系统的 CPU、内存、磁盘和网络使用情况。
 
 ```bash
 sudo apt install btop
@@ -209,7 +188,7 @@ sudo apt install btop
 
 ### yazi
 
-yazi 是一个命令行下的图片查看器，支持多种图片格式。
+yazi 是一个在终端的文件管理器，同时支持文件的管理和预览功能。
 
 ```bash
 brew install yazi
@@ -226,8 +205,5 @@ git clone https://github.com/BennyOe/tokyo-night.yazi.git ~/.config/yazi/flavors
 ```bash
 ya pkg add yazi-rs/flavors:dracula
 ```
- 
 
-## 结语
-
-本教程已经同步到我的个人博客，欢迎访问：[Linux101 - 命令行美化教程](https://capoo-fan.github.io/posts/linux-terminal-customization-guide/)
+更多主题可以访问 [yazi 主题仓库](https://github.com/yazi-rs/flavors)
