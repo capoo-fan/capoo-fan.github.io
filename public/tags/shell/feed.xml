@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shell on Capoo-fan</title>
-    <link>http://localhost:1313/tags/shell/</link>
+    <link>http://localhost:1313/blog/tags/shell/</link>
     <description>Recent content in Shell on Capoo-fan</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
     <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/shell/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/shell/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Terminal Customization Guide</title>
-      <link>http://localhost:1313/posts/linux-terminal-customization-guide/</link>
+      <link>http://localhost:1313/blog/posts/linux-terminal-customization-guide/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/linux-terminal-customization-guide/</guid>
+      <guid>http://localhost:1313/blog/posts/linux-terminal-customization-guide/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>General on Capoo-fan</title>
-    <link>http://localhost:1313/categories/general/</link>
+    <link>http://localhost:1313/blog/categories/general/</link>
     <description>Recent content in General on Capoo-fan</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
     <lastBuildDate>Mon, 20 Oct 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/general/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/general/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Terminal Customization Guide</title>
-      <link>http://localhost:1313/posts/linux-terminal-customization-guide/</link>
+      <link>http://localhost:1313/blog/posts/linux-terminal-customization-guide/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/linux-terminal-customization-guide/</guid>
+      <guid>http://localhost:1313/blog/posts/linux-terminal-customization-guide/</guid>
       <description></description>
     </item>
     <item>
       <title>The Missing CS Knowledge</title>
-      <link>http://localhost:1313/posts/the-missing-cs-knowledge/</link>
+      <link>http://localhost:1313/blog/posts/the-missing-cs-knowledge/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/the-missing-cs-knowledge/</guid>
+      <guid>http://localhost:1313/blog/posts/the-missing-cs-knowledge/</guid>
       <description></description>
     </item>
     <item>
       <title>VS Code C/C&#43;&#43; Setup Guide</title>
-      <link>http://localhost:1313/posts/vs-code-c/c-setup-guide/</link>
+      <link>http://localhost:1313/blog/posts/vs-code-c/c-setup-guide/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/vs-code-c/c-setup-guide/</guid>
+      <guid>http://localhost:1313/blog/posts/vs-code-c/c-setup-guide/</guid>
       <description></description>
     </item>
     <item>
       <title>VS Code Plugin Recommendations</title>
-      <link>http://localhost:1313/posts/vs-code-plugin-recommendations/</link>
+      <link>http://localhost:1313/blog/posts/vs-code-plugin-recommendations/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/vs-code-plugin-recommendations/</guid>
+      <guid>http://localhost:1313/blog/posts/vs-code-plugin-recommendations/</guid>
       <description></description>
     </item>
     <item>
       <title>Arch Linux Installation</title>
-      <link>http://localhost:1313/posts/arch-linux-installation/</link>
+      <link>http://localhost:1313/blog/posts/arch-linux-installation/</link>
       <pubDate>Fri, 04 Jul 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/arch-linux-installation/</guid>
+      <guid>http://localhost:1313/blog/posts/arch-linux-installation/</guid>
       <description></description>
     </item>
     <item>
       <title>Awesome Collections</title>
-      <link>http://localhost:1313/posts/awesome-collections/</link>
+      <link>http://localhost:1313/blog/posts/awesome-collections/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/awesome-collections/</guid>
+      <guid>http://localhost:1313/blog/posts/awesome-collections/</guid>
       <description></description>
     </item>
     <item>
       <title>Remotely edit hoa.moe</title>
-      <link>http://localhost:1313/posts/remotely-edit-hoa.moe/</link>
+      <link>http://localhost:1313/blog/posts/remotely-edit-hoa.moe/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/remotely-edit-hoa.moe/</guid>
+      <guid>http://localhost:1313/blog/posts/remotely-edit-hoa.moe/</guid>
       <description></description>
     </item>
   </channel>

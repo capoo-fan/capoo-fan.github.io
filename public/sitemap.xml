@@ -2,171 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/blog/categories/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
+    <loc>http://localhost:1313/blog/categories/general/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>http://localhost:1313/blog/tags/linux/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/linux-terminal-customization-guide/</loc>
+    <loc>http://localhost:1313/blog/posts/linux-terminal-customization-guide/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/blog/posts/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/shell/</loc>
+    <loc>http://localhost:1313/blog/tags/shell/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/blog/tags/</loc>
     <lastmod>2025-10-20T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/c/cpp/</loc>
+    <loc>http://localhost:1313/blog/tags/c/cpp/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/computer-science/</loc>
+    <loc>http://localhost:1313/blog/categories/computer-science/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/plugin/</loc>
+    <loc>http://localhost:1313/blog/tags/plugin/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/the-missing-cs-knowledge/</loc>
+    <loc>http://localhost:1313/blog/posts/the-missing-cs-knowledge/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/vs-code-c/c-setup-guide/</loc>
+    <loc>http://localhost:1313/blog/posts/vs-code-c/c-setup-guide/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/vs-code-plugin-recommendations/</loc>
+    <loc>http://localhost:1313/blog/posts/vs-code-plugin-recommendations/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/vscode/</loc>
+    <loc>http://localhost:1313/blog/categories/vscode/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/vscode/</loc>
+    <loc>http://localhost:1313/blog/tags/vscode/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/arch-linux-installation/</loc>
+    <loc>http://localhost:1313/blog/posts/arch-linux-installation/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/operating-system/</loc>
+    <loc>http://localhost:1313/blog/tags/operating-system/</loc>
     <lastmod>2025-07-04T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/blowfish/</loc>
+    <loc>http://localhost:1313/blog/tags/blowfish/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/tips-about-blowfish/</loc>
+    <loc>http://localhost:1313/blog/posts/tips-about-blowfish/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/web/</loc>
+    <loc>http://localhost:1313/blog/categories/web/</loc>
     <lastmod>2025-06-18T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/awesome-collections/</loc>
+    <loc>http://localhost:1313/blog/posts/awesome-collections/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>http://localhost:1313/blog/tags/github/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/hitsz-course-summary/</loc>
+    <loc>http://localhost:1313/blog/posts/hitsz-course-summary/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/categories/life/</loc>
+    <loc>http://localhost:1313/blog/categories/life/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/remotely-edit-hoa.moe/</loc>
+    <loc>http://localhost:1313/blog/posts/remotely-edit-hoa.moe/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/tags/school/</loc>
+    <loc>http://localhost:1313/blog/tags/school/</loc>
     <lastmod>2025-06-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>http://localhost:1313/blog/pages/</loc>
     <lastmod>2025-06-17T01:14:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pages/friends/</loc>
+    <loc>http://localhost:1313/blog/pages/friends/</loc>
     <lastmod>2025-06-17T01:14:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/pages/about/</loc>
+    <loc>http://localhost:1313/blog/pages/about/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/null/</loc>
+    <loc>http://localhost:1313/blog/posts/null/</loc>
     <lastmod>2025-06-15T16:47:38+08:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>http://localhost:1313/blog/posts/my-first-post/</loc>
     <lastmod>2025-06-15T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
+    <loc>http://localhost:1313/blog/authors/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>http://localhost:1313/blog/series/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Plugin on Capoo-fan</title>
-    <link>http://localhost:1313/tags/plugin/</link>
+    <link>http://localhost:1313/blog/tags/plugin/</link>
     <description>Recent content in Plugin on Capoo-fan</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
     <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/plugin/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/tags/plugin/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VS Code Plugin Recommendations</title>
-      <link>http://localhost:1313/posts/vs-code-plugin-recommendations/</link>
+      <link>http://localhost:1313/blog/posts/vs-code-plugin-recommendations/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/vs-code-plugin-recommendations/</guid>
+      <guid>http://localhost:1313/blog/posts/vs-code-plugin-recommendations/</guid>
       <description></description>
     </item>
   </channel>

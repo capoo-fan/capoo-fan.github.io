@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Life on Capoo-fan</title>
-    <link>http://localhost:1313/categories/life/</link>
+    <link>http://localhost:1313/blog/categories/life/</link>
     <description>Recent content in Life on Capoo-fan</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
     <lastBuildDate>Tue, 17 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/life/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/life/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>HITSZ Course Summary</title>
-      <link>http://localhost:1313/posts/hitsz-course-summary/</link>
+      <link>http://localhost:1313/blog/posts/hitsz-course-summary/</link>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/hitsz-course-summary/</guid>
+      <guid>http://localhost:1313/blog/posts/hitsz-course-summary/</guid>
       <description></description>
     </item>
     <item>
       <title>null</title>
-      <link>http://localhost:1313/posts/null/</link>
+      <link>http://localhost:1313/blog/posts/null/</link>
       <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/null/</guid>
+      <guid>http://localhost:1313/blog/posts/null/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on Capoo-fan</title>
-    <link>http://localhost:1313/categories/web/</link>
+    <link>http://localhost:1313/blog/categories/web/</link>
     <description>Recent content in Web on Capoo-fan</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
     <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/web/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/categories/web/feed.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tips about blowfish</title>
-      <link>http://localhost:1313/posts/tips-about-blowfish/</link>
+      <link>http://localhost:1313/blog/posts/tips-about-blowfish/</link>
       <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/tips-about-blowfish/</guid>
+      <guid>http://localhost:1313/blog/posts/tips-about-blowfish/</guid>
       <description></description>
     </item>
     <item>
       <title>null</title>
-      <link>http://localhost:1313/posts/null/</link>
+      <link>http://localhost:1313/blog/posts/null/</link>
       <pubDate>Sun, 15 Jun 2025 16:47:38 +0800</pubDate><author>qianfu46@gmail.com (潜伏)</author>
-      <guid>http://localhost:1313/posts/null/</guid>
+      <guid>http://localhost:1313/blog/posts/null/</guid>
       <description></description>
     </item>
   </channel>

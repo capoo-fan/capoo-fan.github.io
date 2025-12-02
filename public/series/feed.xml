@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Capoo-fan</title>
-    <link>http://localhost:1313/series/</link>
+    <link>http://localhost:1313/blog/series/</link>
     <description>Recent content in Series on Capoo-fan</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>qianfu46@gmail.com (潜伏)</managingEditor>
     <webMaster>qianfu46@gmail.com (潜伏)</webMaster>
-    <atom:link href="http://localhost:1313/series/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/blog/series/feed.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
